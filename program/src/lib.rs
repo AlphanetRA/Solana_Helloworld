@@ -14,3 +14,6 @@ pub struct GreetingAccount {
     /// number of greetings
     pub counter: u32,
 }
+
+// Declare and export the program's entrypoint
+entrypoint!(process_instruction);
